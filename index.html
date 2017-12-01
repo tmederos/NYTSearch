@@ -15,7 +15,7 @@
   <div class="jumbotron text-center">
     <h1>New York Times Search</h1>
   </div>
-
+<div class="container">
 <div class="row">
   <div class="col-lg-12 container-fluid">
     <div class="panel panel-default">
@@ -27,6 +27,10 @@
           <div class="form-group">
             <label for="search">Search Term:</label>
             <input type="text" class="form-control" id="search">
+          </div>
+          <div class="form-group">
+            <label for="recordReq">Records Requested:</label>
+            <input type="text" class="form-control" id="recordReq">
           </div>
           <div class="form-group">
             <label for="startYear">Start Year:</label>
@@ -43,35 +47,23 @@
      </div>
    </div>
   </div>
-
+<br>
   <div class="row">
     <!-- Results panel -->
    <div class="col-lg-12">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">Search Results</h3>
-        </div>
-
-
-       <div class="panel-body">
-          <div class="well">
-            <h2>Title</h2>
-            <h3>Author</h3>
-            <h4>Section</h4>
-            <h4>Date</h4>
-            <h4>Link</h4>
-          </div>
-
-         <div class="well">
-            <h2>Title</h2>
-            <h3>Author</h3>
-            <h4>Section</h4>
-            <h4>Date</h4>
-            <h4>Link</h4>
-          </div>
-        </div>
-      </div>
+    <div class="card col-lg-12" >
+     <div class="card-body">
+      <h4 class="card-title">Search Results</h4>
+        <h2 id="title">Title</h2>
+        <h3 id="aurhor">Author</h3>
+        <h4 id="section">Section</h4>
+        <h4 id="date">Date</h4>
+        <h4 id="link">Link</h4>
     </div>
+    </div>
+  </div>
+</div>
+</div>
 
 </body>
 </html>
