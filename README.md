@@ -5,7 +5,7 @@
 A React-based rendition of the New York Times Article Search application. It display articles based on user searches. Articles can be saved  to read later or deleted. It is a MERN stack application- uses MongoDB, Express, React, and Node.
 
 ---
-Check out the app here: https://vast-fjord-55903.herokuapp.com/
+Check out the app here: https://tmederos.github.io/NYTSearch/
 
 ---
 # Screenshot
