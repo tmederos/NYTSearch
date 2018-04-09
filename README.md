@@ -19,3 +19,6 @@ Technologies used
 - Bootstrap (http://getbootstrap.com)
 - NYTimes API - http://developer.nytimes.com/article_search_v2.json
 
+## Author
+
+* **Trish Mederos**
